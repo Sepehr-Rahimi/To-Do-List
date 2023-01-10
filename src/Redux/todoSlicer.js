@@ -20,4 +20,4 @@ const todoSlice = createSlice({
 
 
 export default todoSlice.reducer
-export const {increment,decrement,setTo,addTodo,removeTodo} = todoSlice.actions
+export const {addTodo,removeTodo} = todoSlice.actions
