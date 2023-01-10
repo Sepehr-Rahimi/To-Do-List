@@ -30,7 +30,7 @@ const Todo = () => {
         <div>
             <div>
                 <button onClick={handleAdd} className='border border-black'>Add</button>
-                <input className='border border-black' onChange={({target}) => setInput(target.value) } value={input} type="text" />
+                <input className='border border-black ml-3' onChange={({target}) => setInput(target.value) } value={input} type="text" />
             </div>
             <div>
                 <List/>
