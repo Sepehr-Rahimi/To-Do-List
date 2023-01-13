@@ -4,7 +4,7 @@ import Todo from "./Todo/Todo";
 
 const App = () => {
   return (
-    <div className="p-4">
+    <div className="h-screen p-9">
       <Todo/>
     </div>
   );
